@@ -21,8 +21,10 @@ This project designs and queries a **MongoDB database** for the Zen Class progra
 
 ## 🚀 How to Run
 
-1.Save this as zen_queries.js on your Desktop.
+1.Save this as run_queries.js on your Desktop.
+
 2.In CMD:
-mongosh zen_class --file "C:\Desktop\zen_queries.js"
+-
+mongosh zen_class --file "C:\Desktop\run_queries.js"
 
 
