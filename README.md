@@ -20,9 +20,9 @@ This project designs and queries a **MongoDB database** for the Zen Class progra
 6. Users absent **and** not submitted tasks between **15–31 Oct 2020**
 
 ## 🚀 How to Run
-```bash
-# 1. Install dependencies
-npm install mongodb
 
-# 2. Run queries (auto-seeds if empty)
-node run_queries.js
+1.Save this as zen_queries.js on your Desktop.
+2.In CMD:
+mongosh zen_class --file "C:\Desktop\zen_queries.js"
+
+
